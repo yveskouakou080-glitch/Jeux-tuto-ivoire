@@ -1,4 +1,3 @@
-# Jeux-tuto-ivoire
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -94,13 +93,21 @@
         }
         .whatsapp-link {
             display: inline-block;
-            margin-top: 0.5rem;
-            color: #25D366;
+            margin-top: 0.8rem;
+            background: #25D366;
+            color: white !important;
+            padding: 0.7rem 1.5rem;
+            border-radius: 60px;
             font-weight: 600;
             text-decoration: none;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            transition: 0.3s;
+            width: 100%;
         }
-        .whatsapp-link:hover { text-decoration: underline; }
+        .whatsapp-link:hover {
+            background: #1da851;
+            transform: scale(1.02);
+        }
         .footer {
             margin-top: 1.5rem;
             padding-top: 1rem;
@@ -114,7 +121,7 @@
 
 <div class="card">
     <div class="logo">🎮</div>
-    <h1>Jumivoire</h1>
+    <h1>Jeux-tuto-ivoire</h1>
     <p class="sub">Accès illimité aux jeux <br />24h/24, 7j/7</p>
 
     <div class="price">500 FCFA</div>
@@ -131,8 +138,9 @@
     </a>
 
     <p class="secure">🔒 Paiement sécurisé via Wave Business</p>
-    
-    <a href="https://wa.me/2250142711141" class="whatsapp-link">
+
+    <!-- BOUTON WHATSAPP AVEC VOTRE NUMÉRO -->
+    <a href="https://wa.me/2250150882462" class="whatsapp-link">
         📱 Envoyer la capture sur WhatsApp
     </a>
 
